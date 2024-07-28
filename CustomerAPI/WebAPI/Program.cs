@@ -2,6 +2,9 @@ using CustomerApi.Repositories;
 using CustomerApi.Services;
 using CustomerApi.WebApi;
 using Microsoft.EntityFrameworkCore;
+using WebAPI.Utils;
+using AutoMapper;
+using WebAPI.DTOs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,10 +15,23 @@ builder.Services.AddDbContext<CustomerContext>(options =>
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 
+builder.Services.AddAutoMapper(typeof(AutomapperProfile));
+
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("newPolicy", app =>
+    {
+        app.
+        WithOrigins("*").
+        AllowAnyHeader().
+        AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -43,5 +59,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseCors("newPolicy");
 
 app.Run();

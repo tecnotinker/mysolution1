@@ -51,7 +51,7 @@ namespace CustomerApi.WebAPI.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCustomer(int id, Customer customer)
         {
-            if (id != customer.Id)
+            if (!ModelState.IsValid)
             {
                 return BadRequest();
             }

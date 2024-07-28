@@ -116,6 +116,8 @@ C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\bin\Debug\net8.0\WebAPI.deps.jso
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\bin\Debug\net8.0\WebAPI.runtimeconfig.json
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\bin\Debug\net8.0\WebAPI.dll
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\bin\Debug\net8.0\WebAPI.pdb
+C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\bin\Debug\net8.0\AutoMapper.dll
+C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\bin\Debug\net8.0\Humanizer.dll
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -206,6 +208,7 @@ C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\obj\Debug\net8.0\WebAPI.Assembly
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props

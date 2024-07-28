@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>{{formTitle}} customer</h2>
+<mat-dialog-content style="width: 300px; margin: 30px auto; padding-top: 20px; text-align: center;">
+    <p class="confirmationMsg">
+        <span>You're about to delete:</span><br />
+        <span>{{customerData.lastName}}, {{customerData.firstName}}</span><br />
+        <span><strong class="">Confirm deletion?</strong></span>
+    </p>
+    
+
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-raised-button mat-dialog-close color="warn">Cancel</button>
+  <button mat-raised-button color="primary" (click)="deleteCustomer(customerData.id)">{{actionButton}}</button>
+</mat-dialog-actions>

@@ -27,6 +27,7 @@ C:\Proyectos\chamba\Dynatron\CustomerAPI\Services\obj\Debug\net8.0\Services.Gene
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Services\obj\Debug\net8.0\Services.sourcelink.json
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Services\obj\Debug\net8.0\Services.csproj.Up2Date
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Services\obj\Debug\net8.0\Services.dll
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Services\obj\Debug\net8.0\refint\Services.dll

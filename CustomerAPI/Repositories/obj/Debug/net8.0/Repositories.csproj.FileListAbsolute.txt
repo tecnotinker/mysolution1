@@ -23,6 +23,7 @@ C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Debug\net8.0\Repositor
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Debug\net8.0\Repositories.dll
 C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Debug\net8.0\refint\Repositories.dll
