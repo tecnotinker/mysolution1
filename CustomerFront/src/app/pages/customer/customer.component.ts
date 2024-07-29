@@ -6,6 +6,7 @@ import { CustomerService } from 'src/app/Services/customer.service';
 import { MatDialog } from '@angular/material/dialog';
 import { CustomerEditDialogComponent } from 'src/app/components/customer-edit-dialog.component';
 import { CustomerDeleteDialogComponent } from 'src/app/components/customer-delete-dialog.component';
+import { SessionStorageService } from 'src/app/Services/session-storage.service';
 
 @Component({
   selector: 'app-customer',
@@ -13,12 +14,16 @@ import { CustomerDeleteDialogComponent } from 'src/app/components/customer-delet
   styleUrls: ['./customer.component.css']
 })
 export class CustomerComponent implements AfterViewInit {
-  displayedColumns: string[] = ['firstName', 'lastName', 'email', 'actions'];
+  displayedColumns: string[] = ['firstName', 'lastName', 'email', 'lastUpdateDateTime', 'actions'];
   dataSource = new MatTableDataSource<Customer>();
+  lastUpdatedRowId: number = 0;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
 
-constructor(private customerService: CustomerService, public dialog: MatDialog){
+constructor(
+  private customerService: CustomerService, 
+  private sessionStorageService: SessionStorageService,
+  public dialog: MatDialog){
 
 }
 
@@ -30,6 +35,8 @@ getCustomers(){
   this.customerService.getList().subscribe({
     next: (data) =>{
       this.dataSource.data = data;
+
+      this.lastUpdatedRowId = this.sessionStorageService.getItem('lastUpdatedId');
     },
     error:(e)=>{
       console.log(e);

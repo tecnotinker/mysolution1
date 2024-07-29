@@ -22,6 +22,7 @@ import { CustomerService } from './Services/customer.service';
 import { CustomerComponent } from './pages/customer/customer.component';
 import { CustomerEditDialogComponent } from './components/customer-edit-dialog.component';
 import { CustomerDeleteDialogComponent } from './components/customer-delete-dialog.component';
+import { SessionStorageService } from './Services/session-storage.service';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,7 @@ import { CustomerDeleteDialogComponent } from './components/customer-delete-dial
     MatDialogModule,
     MatGridListModule
   ],
-  providers: [CustomerService],
+  providers: [CustomerService, SessionStorageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

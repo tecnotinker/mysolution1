@@ -4,6 +4,7 @@ import { Customer } from 'src/app/Interfaces/Customer';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CustomerService } from '../Services/customer.service';
+import { SessionStorageService } from '../Services/session-storage.service';
 
 @Component({
   selector: 'customer-edit-dialog',
@@ -20,6 +21,7 @@ export class CustomerEditDialogComponent implements OnInit{
     private fb: FormBuilder,
     private snackBar: MatSnackBar,
     private customerService: CustomerService, 
+    private sessionStorageService: SessionStorageService,
     @Inject(MAT_DIALOG_DATA) public customerData: Customer
   ) {
     this.customerForm = this.fb.group({
@@ -53,7 +55,7 @@ export class CustomerEditDialogComponent implements OnInit{
       id: 0,
       firstName: this.customerForm.value.firstName,
       lastName: this.customerForm.value.lastName,
-      email: this.customerForm.value.email,
+      email: this.customerForm.value.email
     }
 
     if(this.customerData == null){
@@ -72,6 +74,7 @@ export class CustomerEditDialogComponent implements OnInit{
         next:(data)=>{
           this.showAlert("Customer updated", "Ok");
           this.dialogRef.close("Update");
+          this.sessionStorageService.setItem('lastUpdatedId', model.id);
         },
         error:(e)=>{
           this.showAlert("Customer update", "Error");

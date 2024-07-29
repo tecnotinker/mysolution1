@@ -1,8 +1,10 @@
-﻿using CustomerApi.Entities;
+﻿using AutoMapper;
+using CustomerApi.Entities;
 using CustomerApi.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using WebAPI.DTOs;
 
 namespace CustomerApi.WebAPI.Controllers
 {
@@ -11,10 +13,12 @@ namespace CustomerApi.WebAPI.Controllers
     public class CustomerController : ControllerBase
     {
         private readonly ICustomerService _customerService;
+        private readonly IMapper _mapper;
 
-        public CustomerController(ICustomerService customerService)
+        public CustomerController(ICustomerService customerService, IMapper mapper)
         {
             _customerService = customerService;
+            _mapper = mapper;
         }
 
         // GET: api/Customer
@@ -22,7 +26,7 @@ namespace CustomerApi.WebAPI.Controllers
         public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
         {
             var customers = await _customerService.GetAllCustomersAsync();
-            return Ok(customers);
+            return Ok(customers.Select(p => _mapper.Map<CustomerDTO>(p)).ToList());
         }
 
         // GET: api/Customer/5

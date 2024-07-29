@@ -26,11 +26,14 @@ namespace CustomerApi.Services
 
         public async Task AddCustomerAsync(Customer customer)
         {
+            customer.CreatedDateTime = DateTime.Now;
+            customer.LastUpdateDateTime = DateTime.Now;
             await _customerRepository.AddAsync(customer);
         }
 
         public async Task UpdateCustomerAsync(Customer customer)
         {
+            customer.LastUpdateDateTime = DateTime.Now;
             await _customerRepository.UpdateAsync(customer);
         }
 

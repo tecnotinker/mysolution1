@@ -8,7 +8,9 @@ namespace WebAPI.Utils
     {
         public AutomapperProfile()
         {
-            CreateMap<Customer, CustomerDTO>().ReverseMap();
+            CreateMap<Customer, CustomerDTO>()
+                .ForMember(x => x.LastUpdateDateTime, opt => opt.MapFrom(src => ((DateTime)src.LastUpdateDateTime).ToShortDateString()))
+                .ForMember(x => x.CreatedDateTime, opt => opt.MapFrom(src => ((DateTime)src.CreatedDateTime).ToShortDateString()));
         }
     }
 }
