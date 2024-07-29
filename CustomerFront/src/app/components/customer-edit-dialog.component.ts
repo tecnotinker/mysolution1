@@ -32,8 +32,7 @@ export class CustomerEditDialogComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    if(this.customerData){
-      console.log(this.customerData);
+    if(this.customerData){      
       this.customerForm.patchValue({
         firstName: this.customerData.firstName,
         lastName: this.customerData.lastName,
@@ -73,15 +72,13 @@ export class CustomerEditDialogComponent implements OnInit{
       this.customerService.update(this.customerData.id, model).subscribe({
         next:(data)=>{
           this.showAlert("Customer updated", "Ok");
-          this.dialogRef.close("Update");
-          this.sessionStorageService.setItem('lastUpdatedId', model.id);
+          this.dialogRef.close("Update");          
         },
         error:(e)=>{
           this.showAlert("Customer update", "Error");
         }
       })
     }
-    console.log(this.customerForm.value);
   }
 
 }

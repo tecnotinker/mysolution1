@@ -76,6 +76,13 @@ openDeleteDialog(model: Customer) {
   });
 }
 
+selectElement(row:Customer){
+  console.log(row);
+  
+  this.lastUpdatedRowId = row.id;
+  this.sessionStorageService.setItem('lastUpdatedId', row.id);
+}
+
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
   }
