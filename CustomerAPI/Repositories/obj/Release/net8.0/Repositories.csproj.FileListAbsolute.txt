@@ -1,0 +1,16 @@
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\bin\Release\net8.0\Repositories.deps.json
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\bin\Release\net8.0\Repositories.dll
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\bin\Release\net8.0\Repositories.pdb
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\bin\Release\net8.0\Entities.dll
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\bin\Release\net8.0\Entities.pdb
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\Repositories.csproj.AssemblyReference.cache
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\Repositories.AssemblyInfoInputs.cache
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\Repositories.AssemblyInfo.cs
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\Repositories.sourcelink.json
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\Reposito.787EC4B2.Up2Date
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\Repositories.dll
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\refint\Repositories.dll
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\Repositories.pdb
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Repositories\obj\Release\net8.0\ref\Repositories.dll

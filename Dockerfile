@@ -33,5 +33,5 @@ COPY --from=build-dotnet /app/publish ./
 COPY --from=build-angular /app/CustomerFront/dist/customer-front ./wwwroot/
 
 # Expose port and run the application
-EXPOSE 80
+EXPOSE 5105
 ENTRYPOINT ["dotnet", "WebAPI.dll"]

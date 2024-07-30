@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Proyectos\\chamba\\Dynatron\\CustomerAPI\\WebAPI\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Proyectos\\chamba\\Dynatron\\CustomerAPI\\WebAPI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Proyectos\\chamba\\Dynatron\\CustomerAPI\\WebAPI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Proyectos\\chamba\\Dynatron\\CustomerAPI\\WebAPI\\wwwroot\\main.0ee62d2f9bbc0451.js",
+      "PackagePath": "staticwebassets\\main.0ee62d2f9bbc0451.js"
+    },
+    {
+      "Id": "C:\\Proyectos\\chamba\\Dynatron\\CustomerAPI\\WebAPI\\wwwroot\\polyfills.b3a457c148161982.js",
+      "PackagePath": "staticwebassets\\polyfills.b3a457c148161982.js"
+    },
+    {
+      "Id": "C:\\Proyectos\\chamba\\Dynatron\\CustomerAPI\\WebAPI\\wwwroot\\runtime.f2df7c09b90eab3a.js",
+      "PackagePath": "staticwebassets\\runtime.f2df7c09b90eab3a.js"
+    },
+    {
+      "Id": "C:\\Proyectos\\chamba\\Dynatron\\CustomerAPI\\WebAPI\\wwwroot\\styles.e80792cf181eeafa.css",
+      "PackagePath": "staticwebassets\\styles.e80792cf181eeafa.css"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.WebAPI.props",
+      "PackagePath": "build\\WebAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\WebAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebAPI.props",
+      "PackagePath": "buildTransitive\\WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

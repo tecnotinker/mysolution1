@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bfm5R4iZXEY=",
+  "dgSpecHash": "lypG5yORsFw=",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\dynatron\\mysolution1\\CustomerAPI\\Repositories\\Repositories.csproj",
+  "projectFilePath": "C:\\Proyectos\\chamba\\Dynatron\\CustomerAPI\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LuisD\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.7\\microsoft.entityframeworkcore.8.0.7.nupkg.sha512",
     "C:\\Users\\LuisD\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.7\\microsoft.entityframeworkcore.abstractions.8.0.7.nupkg.sha512",

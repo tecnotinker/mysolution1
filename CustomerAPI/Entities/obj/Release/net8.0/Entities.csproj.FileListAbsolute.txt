@@ -1,0 +1,12 @@
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\bin\Release\net8.0\Entities.deps.json
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\bin\Release\net8.0\Entities.dll
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\bin\Release\net8.0\Entities.pdb
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\obj\Release\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\obj\Release\net8.0\Entities.AssemblyInfoInputs.cache
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\obj\Release\net8.0\Entities.AssemblyInfo.cs
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\obj\Release\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\obj\Release\net8.0\Entities.sourcelink.json
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\obj\Release\net8.0\Entities.dll
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\obj\Release\net8.0\refint\Entities.dll
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\obj\Release\net8.0\Entities.pdb
+C:\Proyectos\chamba\Dynatron\CustomerAPI\Entities\obj\Release\net8.0\ref\Entities.dll

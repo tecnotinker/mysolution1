@@ -32,8 +32,14 @@ builder.Services.AddCors(options =>
         AllowAnyMethod();
     });
 });
+builder.Services.AddHealthChecks();
 
 var app = builder.Build();
+
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+app.MapHealthChecks("/health");
 
 if (app.Environment.IsDevelopment())
 {

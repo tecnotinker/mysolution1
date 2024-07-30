@@ -337,3 +337,4 @@ C:\Proyectos\dynatron\mysolution1\CustomerAPI\WebAPI\obj\Debug\net8.0\refint\Web
 C:\Proyectos\dynatron\mysolution1\CustomerAPI\WebAPI\obj\Debug\net8.0\WebAPI.pdb
 C:\Proyectos\dynatron\mysolution1\CustomerAPI\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 C:\Proyectos\dynatron\mysolution1\CustomerAPI\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+C:\Proyectos\chamba\Dynatron\CustomerAPI\WebAPI\bin\Debug\net8.0\WebAPI.staticwebassets.runtime.json
